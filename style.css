@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 48);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+#exchange-section {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: rgb(0, 0, 48);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    margin: 40px 0;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input:focus{
+    background-color: rgb(243, 243, 243);
+}
+
+button {
+    
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(51, 46, 99);
+    color: white;
+}
